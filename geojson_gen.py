@@ -11,6 +11,7 @@ for i in range(10):
     print("\t\t",Point((i,0)))
 
 print("""
+                }
                 ]
             }
         }
