@@ -13,5 +13,13 @@
         ]
       ]
   },
-}
-
+  "properties": {
+    "name": "MultiPolygon",
+    "style": {
+        color: "black",
+        opacity: 1,
+        fillColor: "white",
+        fillOpacity: 1
+    }
+  }
+};
