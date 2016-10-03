@@ -6,65 +6,10 @@
       "type": "Feature",
       "properties": {},
       "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              0,
-              0
-            ],
-            [
-              0,
-              53.6
-            ],
-            [
-              2.6,
-              53.6
-            ],
-            [
-              2.6,
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
         "type": "Point",
         "coordinates": [
           -1.7907714843749997,
           53.11710851455023
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.9942626953125,
-          52.7994403373623
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.7578125,
-            53.1072166918934
-          ],
-          [
-            -0.9667968749999999,
-            52.78615348878663
-          ]
         ]
       }
     }
