@@ -2,7 +2,7 @@ from sys import argv
 from geojson import Point
 from random import normalvariate
 
-def randnormpt(count, mu, sigma):
+def randnormpt(count, mu1, sigma1, mu2, sigma2):
     print('''
     {
         "type": "FeatureCollection",
@@ -15,7 +15,7 @@ def randnormpt(count, mu, sigma):
                     "type": "Feature",
                     "properties": {},
                     "geometry": ''')
-            print("\t\t\t",Point((normalvariate(mu,sigma), normalvariate(mu,sigma))))
+            print("\t\t\t",Point((normalvariate(mu1,sigma1), normalvariate(mu2,sigma2))))
             print('''
                 }''')
         else:
@@ -24,7 +24,7 @@ def randnormpt(count, mu, sigma):
                     "type": "Feature",
                     "properties": {},
                     "geometry": ''')
-            print("\t\t\t",Point((normalvariate(mu,sigma), normalvariate(mu,sigma))))
+            print("\t\t\t",Point((normalvariate(mu1,sigma1), normalvariate(mu2,sigma2))))
             print('''
                 },''')
     print("""
@@ -32,4 +32,4 @@ def randnormpt(count, mu, sigma):
     }""")
     return
 
-randnormpt(int(argv[1]), int(argv[2]), int(argv[3]))
+randnormpt(int(argv[1]), int(argv[2]), int(argv[3]), int(argv[4]), int(argv[5]))
