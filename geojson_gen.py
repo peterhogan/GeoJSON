@@ -1,16 +1,29 @@
 from geojson import Point
 
-print('''{
+print('''
+{
     "type": "FeatureCollection",
     "features": [
-        {
-            "type": "Feature",
-            "properties": {},
-            "geometry": {''')
+''')
 for i in range(10):
-    print("\t\t\t",Point((i,0)))
-
+    if i == range(10)[-1]:
+        print('''
+            {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {''')
+        print("\t\t\t",Point((i,0)))
+        print('''
+            }''')
+    else:
+        print('''
+            {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {''')
+        print("\t\t\t",Point((i,0)))
+        print('''
+            },''')
 print("""
-        }
     ]
 }""")
