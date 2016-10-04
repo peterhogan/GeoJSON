@@ -8,7 +8,6 @@ print('''
 for i in range(10):
     if i == range(10)[-1]:
         print('''
-            {
                 "type": "Feature",
                 "properties": {},
                 "geometry": {''')
@@ -17,7 +16,6 @@ for i in range(10):
             }''')
     else:
         print('''
-            {
                 "type": "Feature",
                 "properties": {},
                 "geometry": {''')
