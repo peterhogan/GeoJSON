@@ -4,72 +4,82 @@
     "features": [
 
 
+            {
                 "type": "Feature",
                 "properties": {},
-                "geometry": {
+                "geometry": 
 			 {"coordinates": [0, 0], "type": "Point"}
 
             },
 
+            {
                 "type": "Feature",
                 "properties": {},
-                "geometry": {
+                "geometry": 
 			 {"coordinates": [1, 0], "type": "Point"}
 
             },
 
+            {
                 "type": "Feature",
                 "properties": {},
-                "geometry": {
+                "geometry": 
 			 {"coordinates": [2, 0], "type": "Point"}
 
             },
 
+            {
                 "type": "Feature",
                 "properties": {},
-                "geometry": {
+                "geometry": 
 			 {"coordinates": [3, 0], "type": "Point"}
 
             },
 
+            {
                 "type": "Feature",
                 "properties": {},
-                "geometry": {
+                "geometry": 
 			 {"coordinates": [4, 0], "type": "Point"}
 
             },
 
+            {
                 "type": "Feature",
                 "properties": {},
-                "geometry": {
+                "geometry": 
 			 {"coordinates": [5, 0], "type": "Point"}
 
             },
 
+            {
                 "type": "Feature",
                 "properties": {},
-                "geometry": {
+                "geometry": 
 			 {"coordinates": [6, 0], "type": "Point"}
 
             },
 
+            {
                 "type": "Feature",
                 "properties": {},
-                "geometry": {
+                "geometry": 
 			 {"coordinates": [7, 0], "type": "Point"}
 
             },
 
+            {
                 "type": "Feature",
                 "properties": {},
-                "geometry": {
+                "geometry": 
 			 {"coordinates": [8, 0], "type": "Point"}
 
             },
 
+            {
                 "type": "Feature",
                 "properties": {},
-                "geometry": {
+                "geometry": 
 			 {"coordinates": [9, 0], "type": "Point"}
 
             }
